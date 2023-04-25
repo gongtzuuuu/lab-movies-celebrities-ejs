@@ -1,0 +1,14 @@
+<h1>New Celebrity</h1>
+<form action="/celebs/create" method="post">
+    <label for="celeb-name">Name: <input type="text" name="name" id="celeb-name"></label>
+    <label for="celeb-occupation">Occpation: 
+        <select name="occpation" id="celeb-occupation">
+            <option value="actor">Actor</option>
+            <option value="singer">Singer</option>
+            <option value="comedian">Comedian</option>
+            <option value="unknown">Unkown</option>
+        </select>
+    </label>
+    <label for="celeb-catch-phrase">Catch Phrase: <input type="text" name="catchphrase" id="celeb-catch-phrase"></label>
+    <button type="submit">Create Celebrity</button>
+</form>
